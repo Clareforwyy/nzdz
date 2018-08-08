@@ -5,8 +5,8 @@
     <meta content="text/html;charset=utf-8" http-equiv="content-type">
 	<meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
     <title>首页</title>
-    <link rel="stylesheet" href="./css/base.css">
-	<script type="text/javascript" src="./js/rem.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+	<script type="text/javascript" src="js/rem.js"></script>
 </head>
 <body>
 <div id="app">
@@ -16,24 +16,51 @@
 <template id="home">
 	<div class="wrap">
 		<div class="title">
-			<img src="./images/titlt_bg.png" alt="">
+			<img src="images/titlt_bg.png" alt="">
 			<h1>哪吒队长宠物用品价格表</h1>
 			<div class="line"></div>
-			<p>宠之音系列-<i>单罐包邮</i></p>
+			<p>{{mydata.txt}}<i>{{mydata.tip}}</i></p>
 		</div>	
+		<div class="lists">
+			<img src="images/bg_btm.png" alt="">
+			<div class="list" v-for="(item ,index) in mydata.lists" :key="index">
+				<img :class="['dog',index%2==0 ? 'dog_l':'dog_r']" :src="index%2==0 ? 'images/dog-left.png':'images/dog-right.png'" alt="">
+				<div class="con">
+					<div class="imgbox">
+						<img class="img_s" :src="item.imgurl" alt="">
+						<img class="img_bg" src="images/imgbg.png" alt="">
+					</div>
+					<div class="txt">
+						<h5>{{item.title}}</h5>
+						<p>特点：{{item.trait}}</p>
+						<div class="price">
+							原价：<i>￥{{item.price}}.00 </i>
+						</div>
+						<div class="onsale">
+							<img src="images/money-bg.png" >
+							<div class="sale">
+								<em>价格</em>
+								<em><i>{{item.onsale}}</i>.00</em>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 </body>
-<script src="./js/vue.js"></script>
-<script src="./js/vue-router.js"></script>
-<script src="./data.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/vue-router.js"></script>
+<script src="data.js"></script>
 <script>
 	
 	var home = {
 		template:'#home',
 		computed:{
-			showid(){
-				return this.$route.params.id
+			mydata(){
+				document.title=data[this.$route.params.id].title;
+				return data[this.$route.params.id]
 			}
 		},
 	}
