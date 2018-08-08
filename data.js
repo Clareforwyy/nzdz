@@ -84,5 +84,71 @@ var data = {
 				imgurl:'./images/img1/img1.png'
 			}
 		]
-	}
+	},
+	//沐浴 
+	3:{
+		title:'哪吒队长-爱宠沐浴',
+		txt:'宠之音系列-',
+		tip:'单罐包邮',
+		lists:[
+			{
+				title:'益生菌肠胃宝',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68',
+				onsale:'49',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'益生菌肠胃宝1',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'168',
+				onsale:'149',
+				imgurl:'./images/img1/img1.png'
+			}
+		]
+	},
+	//营养
+	4:{
+		title:'哪吒队长-爱宠营养',
+		txt:'宠之音系列-',
+		tip:'单罐包邮',
+		lists:[
+			{
+				title:'益生菌肠胃宝',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68',
+				onsale:'49',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'益生菌肠胃宝1',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'168',
+				onsale:'149',
+				imgurl:'./images/img1/img1.png'
+			}
+		]
+	},
+	//驱虫
+	5:{
+		title:'哪吒队长-爱宠驱虫',
+		txt:'宠之音系列-',
+		tip:'单罐包邮',
+		lists:[
+			{
+				title:'益生菌肠胃宝',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68',
+				onsale:'49',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'益生菌肠胃宝1',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'168',
+				onsale:'149',
+				imgurl:'./images/img1/img1.png'
+			}
+		]
+	},
 }
