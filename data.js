@@ -33,6 +33,55 @@ var data = {
 				price:'68.00',
 				onsale:'49.00',
 				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
+			},
+			{
+				title:'鸭脖子',
+				trait:'猫狗通用 调理宠物肠胃 缓解消化不良 （任两89包邮）',
+				price:'68.00',
+				onsale:'49.00',
+				imgurl:'./images/img1/img1.png'
 			}
 		]
 	}
