@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta content="text/html;charset=utf-8" http-equiv="content-type">
 	<meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
-    <title>首页</title>
+    <title>欢迎光临哪吒队长宠物用品</title>
     <link rel="stylesheet" href="css/base.css">
 	<script type="text/javascript" src="js/rem.js"></script>
 </head>
@@ -32,15 +32,12 @@
 					</div>
 					<div class="txt">
 						<h5>{{item.title}}</h5>
-						<p>特点：{{item.trait}}</p>
-						<div class="price">
-							原价：<i>￥{{item.price}}.00 </i>
+						<p>{{item.trait}}</p>
+						<div class="price" v-if="item.price">原价：<i>￥{{item.price}}.00 </i>
 						</div>
 						<div class="onsale">
 							<img src="images/money-bg.png" >
-							<div class="sale">
-								<em>价格</em>
-								<em><i>{{item.onsale}}</i>.00</em>
+							<div class="sale"><em>价格</em><em><i>{{item.onsale}}</i>.00</em>
 							</div>
 						</div>
 					</div>
@@ -59,7 +56,7 @@
 		template:'#home',
 		computed:{
 			mydata(){
-				document.title=data[this.$route.params.id].title;
+				document.title = data[this.$route.params.id].title;
 				return data[this.$route.params.id]
 			}
 		},

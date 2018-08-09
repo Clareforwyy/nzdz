@@ -204,7 +204,7 @@ a {
 }
 .dog_r{
 	position: absolute;
-	top: -0.3rem;
+	top: -0.4rem;
 	right: -0.1rem;
 }
 .con{
@@ -246,15 +246,17 @@ a {
 }
 .price{
 	color: #999;
-	margin-top: 0.3rem;
 	font-size: 0.2rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .price i{
 	text-decoration: line-through;
 }
 .onsale{
 	position: absolute;
-	bottom: -0.1rem;
+	bottom: -0.4rem;
 	right: -0.5rem;
 	width: 1.35rem;
 	height: 0.98rem;
